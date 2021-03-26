@@ -42,7 +42,6 @@ class NoteViewController: UIViewController {
         NotificationCenter.default.addObserver(self, selector: #selector(NoteViewController.keyboardWillShow), name: UIResponder.keyboardWillShowNotification, object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(NoteViewController.keyboardWillHide), name: UIResponder.keyboardWillHideNotification, object: nil)
         
-        // скрывть клавиатуру при нажатии на скролвью
         let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(self.didTapScrollView))
         tapGestureRecognizer.numberOfTapsRequired = 1
         noteScrollView.addGestureRecognizer(tapGestureRecognizer)

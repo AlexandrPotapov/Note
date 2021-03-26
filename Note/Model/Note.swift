@@ -1,11 +1,3 @@
-//
-//  Note.swift
-//  Note
-//
-//  Created by lancelap on 07.07.2019.
-//  Copyright © 2019 lancelap. All rights reserved.
-//
-
 enum Importance : String {
     case unImportant
     case normal
@@ -35,7 +27,7 @@ public struct Note {
         uid = UUID().uuidString
         self.title = title
         self.content = content
-        color = "FFFFFFFF" // белый цвет по умолчанию
+        color = "FFFFFFFF"
         self.importance = importance
         selfDestructionDate = nil
     }

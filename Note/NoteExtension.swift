@@ -1,11 +1,3 @@
-//
-//  NoteExtension.swift
-//  Note
-//
-//  Created by lancelap on 07.07.2019.
-//  Copyright © 2019 lancelap. All rights reserved.
-//
-
 import Foundation
 
 extension Note {
@@ -22,7 +14,7 @@ extension Note {
         
         let date: Date?
         if selfDestructionDate != "" {
-            date = Date(timeIntervalSince1970: Double(selfDestructionDate)!) // TODO: безопасно извлечь опционалл
+            date = Date(timeIntervalSince1970: Double(selfDestructionDate)!)
         } else {
             date = nil
         }

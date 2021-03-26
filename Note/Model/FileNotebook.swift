@@ -1,13 +1,3 @@
-//
-//  FileNotebook.swift
-//  Note
-//
-//  Created by lancelap on 31.07.2019.
-//  Copyright © 2019 lancelap. All rights reserved.
-//
-
-
-
 import Foundation
 
 class FileNotebook: Notebook {

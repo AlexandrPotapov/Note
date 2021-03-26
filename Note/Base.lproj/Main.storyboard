@@ -15,7 +15,7 @@
             <objects>
                 <tableViewController id="oeN-H4-58o" customClass="NoteTableViewController" customModule="Note" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="9to-RO-I1R">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.36056208610000001" green="0.76867645979999999" blue="0.96458524469999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <prototypes>
@@ -259,7 +259,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O5z-te-pje">
-                                <rect key="frame" x="4" y="44" width="406" height="643"/>
+                                <rect key="frame" x="4" y="0.0" width="406" height="716"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Rrq-KP-rOT">
                                         <rect key="frame" x="20" y="20" width="366" height="34"/>
@@ -484,7 +484,7 @@
             <objects>
                 <viewController id="exC-ko-Zko" customClass="ColorPickerViewController" customModule="Note" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wV6-G7-3iv">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="LbY-GS-W2t"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -610,7 +610,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="lDA-H8-J5o"/>
-        <segue reference="1Pi-eu-d2X"/>
+        <segue reference="d06-jz-mPH"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="shinobu" width="414" height="621"/>

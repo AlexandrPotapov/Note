@@ -1,14 +1,5 @@
-//
-//  DBNotebook.swift
-//  Notes
-//
-//  Created by Jag Stang on 17/08/2019.
-//  Copyright © 2019 JagStang. All rights reserved.
-//
-
 import Foundation
 import CoreData
-//import UIKit
 
 class DBNotebook: NSObject, Notebook {
     

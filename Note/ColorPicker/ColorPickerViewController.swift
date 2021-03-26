@@ -1,11 +1,3 @@
-//
-//  ColorPickerViewController.swift
-//  Note
-//
-//  Created by Александр on 17.01.2021.
-//  Copyright © 2021 lancelap. All rights reserved.
-//
-
 import UIKit
 import Foundation
 
@@ -54,7 +46,6 @@ class ColorPickerViewController: UIViewController, HSBColorPickerDelegate, Color
             color = UIColor(hex: "3DC440FF") ?? .green
         }
         self.delegate?.getPickColor(pickColor: color)
-        // go back to the previous view controller
         _ = self.navigationController?.popViewController(animated: true)
     }
     func getColorPicker() -> ColorPicker? {

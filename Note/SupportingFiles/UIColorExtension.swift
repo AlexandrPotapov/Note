@@ -1,11 +1,3 @@
-//
-//  UIColorExtension.swift
-//  Note
-//
-//  Created by Александр on 23.01.2021.
-//  Copyright © 2021 lancelap. All rights reserved.
-//
-
 import Foundation
 import UIKit
 

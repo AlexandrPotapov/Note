@@ -1,11 +1,3 @@
-//
-//  NoteTableViewController.swift
-//  Note
-//
-//  Created by Александр on 11.02.2021.
-//  Copyright © 2021 lancelap. All rights reserved.
-//
-
 import UIKit
 import CoreData
 
@@ -122,7 +114,7 @@ class NoteTableViewController: UITableViewController, NVCDelegate {
         
         let removeNoteOperation = RemoveNoteOperation(note: note, notebook: notebook, backendQueue: backendQueue, dbQueue: dbQueue, token: token, gistId: gistId)
         commonQueue.addOperation(removeNoteOperation)
-        let updateNoteArray = BlockOperation {
+        let updateNoteArray = BlockOperation { 
             self.noteArray = self.notebook.getList()
         }
         updateNoteArray.addDependency(removeNoteOperation)

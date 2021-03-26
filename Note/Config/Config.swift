@@ -1,11 +1,3 @@
-//
-//  Config.swift
-//  Note
-//
-//  Created by Александр on 13.03.2021.
-//  Copyright © 2021 lancelap. All rights reserved.
-//
-
 enum Config {
     
     enum GistApi: String {
