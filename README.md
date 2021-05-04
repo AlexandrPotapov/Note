@@ -25,6 +25,5 @@
 <img src="NoteScreen/screen9.png" width="250">
 <img src="NoteScreen/screen10.png" width="250">
 <img src="NoteScreen/screen11.png" width="250">
-<img src="NoteScreen/screen12.png" width="250">
 
 
