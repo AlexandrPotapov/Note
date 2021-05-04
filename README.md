@@ -14,17 +14,17 @@
 
 Хранение заметок осуществляется в операциях: локально, в Core Data и удаленно на github gists.
 
-<img src="Note screen/screen1.png" width="250">
-<img src="Note screen/screen2.png" width="250">
-<img src="Note screen/screen3.png" width="250">
-<img src="Note screen/screen4.png" width="250">
-<img src="Note screen/screen5.png" width="250">
-<img src="Note screen/screen6.png" width="250">
-<img src="Note screen/screen7.png" width="250">
-<img src="Note screen/screen8.png" width="250">
-<img src="Note screen/screen9.png" width="250">
-<img src="Note screen/screen10.png" width="250">
-<img src="Note screen/screen11.png" width="250">
-<img src="Note screen/screen12.png" width="250">
+<img src="NoteScreen/screen1.png" width="250">
+<img src="NoteScreen/screen2.png" width="250">
+<img src="NoteScreen/screen3.png" width="250">
+<img src="NoteScreen/screen4.png" width="250">
+<img src="NoteScreen/screen5.png" width="250">
+<img src="NoteScreen/screen6.png" width="250">
+<img src="NoteScreen/screen7.png" width="250">
+<img src="NoteScreen/screen8.png" width="250">
+<img src="NoteScreen/screen9.png" width="250">
+<img src="NoteScreen/screen10.png" width="250">
+<img src="NoteScreen/screen11.png" width="250">
+<img src="NoteScreen/screen12.png" width="250">
 
 
